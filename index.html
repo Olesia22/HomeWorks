@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="main_background">
+    <header class="header">
+            <a href="#" class="header_title_link">
+                <img src="images/homeWorks.png" alt="Title" class="header_title">
+            </a>
+    </header>
+    <div class="white">
+        <div class="container_white">
+            <div class="empty_block"></div>
+           <div class="info_block">
+               <h1 class="title">Get your free account</h1>
+               <div class="left_side_subtitle">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever)
+                   anytime.
+               </div>
+               <form class="create_form" id="form">
+                   <div class="delete">
+                       <p class="create_form_legend del">Full Name</p>
+                       <input type="text" class="create_form_input form-input input_fullName del" id="input_fullName" placeholder="Antony Swarowski">
+											 <!-- <div class="error-message">FullName can contain only letters and space</div> -->
+                   </div>
+                   <div >
+                       <p class="create_form_legend well">Your username</p>
+                       <input type="text" class="create_form_input form-input userName del well" id="input_userName">
+                   </div>
+                   <div class="delete">
+                       <p class="create_form_legend del">E-mail</p>
+                       <input type="email" class="create_form_input form-input" id="input_mail">
+                   </div>
+                   <p class="create_form_legend well">Password</p>
+                   <input type="password" class="create_form_input form-input well" id="input_password">
+                   <div class="delete">
+                       <p class="create_form_legend">Repeat Password</p>
+                       <input type="password" class="create_form_input del form-input" id="input_repeatPassword">
+                   </div>
+
+                   <input type="checkbox" class="form_input_checkbox well" checked >
+                   <span class="form_checkbox well">Agree to our Terms of Service and Privacy Statement</span>
+                   <button class="btn" id="btn_sign">Sign Up</button>
+               </form>
+               <div class="already" >
+                   <a href="#" id="already" class="already_link">Already have an account?</a>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div class="grey">
+        <img class="image_rocket" src="images/rocket.png" alt="Ракета">
+    </div>
+</div>
+<div class="parent_popup">
+    <div id="popup" class="popup">
+        <p>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+        <button class="btn okButton" id="okButton">ОК</button>
+    </div>
+</div>
+
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
